@@ -1,0 +1,18 @@
+version : 2
+
+sources:
+  - name: shop
+    description: 'It is a testing'
+    database: NDP_ODS
+    schema: STG
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders      
+      - name: information
+        identifier: information
+
+     
+
+

@@ -1,0 +1,10 @@
+version : 2
+
+sources:
+        - name: incremental
+          description: 'It is a testing'
+          database: NDP_ODS
+          schema: STG
+          tables:
+          - name : source_table
+            identifier: source_table

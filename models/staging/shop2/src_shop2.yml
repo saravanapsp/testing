@@ -1,0 +1,10 @@
+version : 2
+
+sources:
+        - name: shop2
+          description: 'It is a testing'
+          database: NDP_EDW
+          schema: EDW
+          tables:
+          - name : orders
+            identifier: orders
